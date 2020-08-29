@@ -1,6 +1,6 @@
 module.exports = {
   devServer: {
     compress: true,
-    public: realworld.toptal.postu.la
+    public: "realworld.toptal.postu.la"
   }
 }
