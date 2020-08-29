@@ -50,5 +50,11 @@
     "serve": "cross-env BABEL_ENV=dev vue-cli-service serve",
     "test": "cross-env BABEL_ENV=test jest --coverage"
   },
+  "vue": {
+    "devServer": {
+      "compress": true,
+      "public": "realworld.toptal.postu.la"
+    }
+  },
   "version": "0.1.0"
 }
