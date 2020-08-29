@@ -5,5 +5,5 @@ COPY package.json .
 COPY yarn.lock .
 RUN yarn install
 COPY . .
-RUN ls
+RUN yarn test
 CMD ["yarn", "serve"]
